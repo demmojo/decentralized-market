@@ -1,0 +1,29 @@
+{
+  "name": "org",
+  "version": "1.0.0",
+  "description": "In this project, I developed a marketplace on the Ethereum platform where users can open stores or just shop.",
+  "dependencies": {
+    "bignumber.js": "^7.2.1",
+    "history": "^4.7.2",
+    "lodash": "^4.17.10",
+    "openzeppelin-solidity": "1.11.0",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.4",
+    "semantic-ui-css": "^2.3.3",
+    "semantic-ui-react": "^0.82.1",
+    "truffle-contract": "^3.0.6",
+    "truffle-hdwallet-provider": "0.0.6",
+    "web3": "0.20.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "author": "Mohamed Abdulaziz",
+  "license": "MIT"
+}
