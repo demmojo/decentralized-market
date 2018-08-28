@@ -50,8 +50,7 @@ contract('UserRoles', (accounts) => {
     assert.fail('Unexpected revert.');
   })
 
-  /** The administrator should not be allowed to remove the market owner as an administrator."
-    */
+  /** The administrator should not be allowed to remove the market owner as an administrator." */
   it('should confirm that administrators cannot remove the market owner as administrator', async () => {
     const instance = await UserRoles.deployed();
 
