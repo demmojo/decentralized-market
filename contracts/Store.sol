@@ -117,6 +117,12 @@ contract Store is Ownable {
         emit ItemAdded(_name, _price, _quantity, itemCounter);
     }
 
+    /** @dev Various store properties are returned.
+      * @return Item's name.
+      * @return _Item's ID.
+      * @return Store owner's address.
+      * @return market owner's address.
+      */
     function getProperties() public view returns (string, uint, address, address) {
         return (name, itemCounter, owner, marketAddress);
     }
