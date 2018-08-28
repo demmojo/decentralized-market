@@ -1,6 +1,6 @@
 
 # A decentralized online market on Ethereum
-This is my final project submission for the ConsenSys Academy's 2018 Developer Program. In this project, I developed a market on the Ethereum platform where users can open stores, add items to the stores, just shop and more! 
+This is my final project submission for the ConsenSys Academy's 2018 Developer Program. In this project, I developed a decentralized market on the Ethereum platform where users can open stores, add items to the stores, just shop and more! 
 
 The market has four types of participants:
 
