@@ -1,13 +1,10 @@
 const UserRoles = artifacts.require('UserRoles');
 const Store = artifacts.require('Store');
 const Web3 = require('web3');
-
-// Using web3 for eth to wei conversion and for checking balances
 web3 = new Web3(new Web3.providers.HttpProvider('http://localhost:8545'));
 
 contract('Store', (accounts) => {
-  // NOTE: These accounts start from from the second index. accounts[0] will deploy the store
-  const max = accounts[1]; /////////////
+  const max = accounts[1];
   const chris = accounts[2];
   const ali = accounts[3];
   const hannah = accounts[4];
